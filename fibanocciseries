@@ -1,0 +1,12 @@
+num = int(input("Enter the value of 'n': "))
+f1 = 0
+f2 = 1
+f3= 0
+count = 1
+print("Fibonacci Series: ", end = " ")
+while(count <= num):
+  print(f3, end = " ")
+  count += 1
+  f1 = f2
+  f2 = f3
+  f3 = f1 + f2
